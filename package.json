@@ -21,7 +21,8 @@
     "figmagic": "npx figmagic",
     "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "npx chromatic --project-token=281a854cac92"
   },
   "resolutions": {
     "react": "17"
@@ -46,17 +47,17 @@
     "@storybook/testing-library": "0.0.11",
     "babel-loader": "8.2.4",
     "babel-plugin-module-resolver": "4.1.0",
-    "chromatic": "5",
+    "chromatic": "^5.10.2",
     "eslint": "8.11.0",
     "eslint-plugin-storybook": "^0.5.7",
     "figmagic": "4",
     "file-loader": "6.2.0",
     "prettier": "2.6.0",
+    "prop-types": "latest",
+    "styled-components": "5",
     "webpack": "4",
     "webpack-cli": "4.9.2",
-    "webpack-dev-server": "3",
-    "prop-types": "latest",
-    "styled-components": "5"
+    "webpack-dev-server": "3"
   },
   "dependencies": {
     "react": "17.0.2",
